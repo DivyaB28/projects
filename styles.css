@@ -1,17 +1,98 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
 h1,
 h2,
 p {
   text-align: center;
 }
 
-body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+h1,
+h2 {
+  font-family: Impact, serif;
 }
 
-div {
-  /* Currently, the width of the div element is specified in pixels (px). 
-  Change the width property's value to be 80%, 
-  to make it 80% the width of its parent element (body). */
+.menu {
   width: 80%;
   background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 50%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 30px;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+footer {
+  font-size: 14px;
+}
+a {
+  color: black;
+}
+/* You change properties of a link when the link has actually been visited by using a 
+pseudo-selector that looks like a:visited { propertyName: propertyValue; }. */
+a:visited {
+  color: grey;
+}
+/* You change properties of a link when the mouse hovers over them by using a
+ pseudo-selector that looks like a:hover { propertyName: propertyValue; }.*/
+a:hover {
+  color: brown;
+}
+/* You change properties of a link when the link is actually being clicked by using a 
+pseudo-selector that looks like a:active { propertyName: propertyValue; }. */
+a:active {
+  color: white;
+}
+.address {
+  margin-top: 5px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* add a negative top margin to the img elements to pull 
+  them up from their current positions.  or 0*/
+  margin-top: -25px;
 }
