@@ -1,0 +1,49 @@
+.canvas {
+  width: 500px;
+  height: 600px;
+  background-color: #4d0f00;
+  overflow: hidden;
+  /*
+  the filter property to blur the painting by 2px in the .canvas element.
+
+Here's an example of a rule that add a 3px blur:
+
+p {
+  filter: blur(3px);
+}
+  */
+  filter: blur(2px);
+}
+.frame {
+  border: 50px solid black;
+  width: 500px;
+  padding: 50px;
+  margin: 20px auto;
+}
+
+.one {
+  width: 425px;
+  height: 150px;
+  background-color: #efb762;
+  margin: 20px auto;
+  transform: rotate(-0.6deg);
+  border-radius: 10px 20px 60px 12px;
+}
+
+.two {
+  width: 475px;
+  height: 200px;
+  background-color: #8f0401;
+  margin: 0 auto 20px;
+  transform: rotate(0.4deg);
+  border-radius: 10px 20px 60px 12px;
+}
+
+.three {
+  width: 91%;
+  height: 28%;
+  background-color: #b20403;
+  margin: auto;
+  transform: rotate(-0.4deg);
+  border-radius: 10px 20px 60px 12px;
+}
